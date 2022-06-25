@@ -74,5 +74,3 @@ def lohash_digest(data:bytes, hex_digest:bool=False) -> bytes:
     digest = bytes(digest)
 
     return digest.hex() if hex_digest else digest
-
-print(lohash_digest(b'helcelo world', True))
